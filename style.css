@@ -37,6 +37,17 @@ container #header-welcome {
 
 } 
 
+#ig-verified-check {
+    /* justify-content: center;  */
+    /* display: flex;  */
+    height: 18px;
+    width: 18px;
+} 
+
+#follow-btn{
+    height:30px;
+    width: 70px;
+}
 
 
 
@@ -46,10 +57,13 @@ container #follow-data {
 } 
 
 
-/* container #bio {
+container #bio {
     display: flex;
-    justify-content: space-evenly;
-} */
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
 /* 
 #page-bio {
     display: flex;
@@ -63,26 +77,12 @@ container #follow-data {
     display: flex;
 } */
 
-
-#ig-verified-check {
-    /* justify-content: center;  */
-    /* display: flex;  */
-    height: 18px;
-    width: 18px;
-} 
-
-#follow-btn{
-    height:30px;
-    width: 70px;
-}
-
 /* #container2 {
     display: flex;
     justify-content: space-between;
     height: 130px;
     width: 730px;
 } */
-
 
 .story {
     
@@ -99,7 +99,7 @@ container #follow-data {
 } */
 #container2 {
     display: flex;
-    /* align-content: center; */
+    align-items: center;
     
     justify-content: space-around; 
 }
